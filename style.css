@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  overflow: hidden;
+  cursor: crosshair;
+}
+
+.sparkle {
+  position: absolute;
+  width: 15px;       /* Bigger sparkles */
+  height: 15px;      /* Bigger sparkles */
+  border-radius: 50%;
+  pointer-events: none;
+  mix-blend-mode: screen;/* Makes colors pop on dark bg */
+}
